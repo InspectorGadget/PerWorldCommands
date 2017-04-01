@@ -1,0 +1,12 @@
+name: PerWorldCommands
+version: 1.0.0
+api:
+    - 3.0.0-ALPHA4
+authors: IG
+main: RTG\PerWorldCommands\Loader
+commands:
+    pwc:
+        permission: pwc.command
+permissions:
+    pwc.command:
+        default: op
